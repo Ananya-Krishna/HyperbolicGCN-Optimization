@@ -1,0 +1,10 @@
+# .gitignore
+
+# Virtual environment
+env/
+
+__pycache__/
+# Data files
+FB15k/*.txt
+# Model checkpoints
+*.pth
