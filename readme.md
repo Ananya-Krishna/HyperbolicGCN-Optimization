@@ -72,7 +72,7 @@ To train HGCNs on all datasets, use the `HGCNs_all_datasets_and_visualizations.i
 jupyter notebook HGCNs_all_datasets_and_visualizations.ipynb
 ```
 
-Configure the dataset (`WordNet`, `FB15K`, `PubMed`, etc.) in the notebook.
+Configure the dataset (`WordNet`, `FB15K`, `PubMed`, etc.) and params(learning rate, starting curvature, optimizer) in the notebook.
 
 #### Visualize Results
 The same notebook includes code for embedding visualizations and curvature analysis.
@@ -85,8 +85,8 @@ The same notebook includes code for embedding visualizations and curvature analy
 To reproduce the main results, follow these steps:
 
 1. Download the datasets.
-2. Set the desired dataset in `HGCNs_all_datasets_and_visualizations.ipynb`.
-3. Train the model by running the notebook cells.
+2. Select and run the corresponding script for your desired dataset in `HGCNs_all_datasets_and_visualizations.ipynb`.
+3. Train the model by running the notebook cells following dataset load-in.
 
 ### Results Summary
 #### Key Findings:
